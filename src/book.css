@@ -1,0 +1,48 @@
+.bookcontent {
+    width: 100%;
+    height: calc(100% - 50px);
+    background: #f9f9f9; /* Light gray background */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.btn1 {
+    height: 40px;
+    width: 120px;
+    background: #5e719e; /* Blue color */
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none; /* Remove border */
+    border-radius: 5px; /* Smoother border */
+    text-align: center;
+    line-height: 40px; /* Center button text vertically */
+    font-size: 16px; /* Increase font size for better visibility */
+    font-weight: bold; /* Make text bold */
+    transition: background 0.3s; /* Smooth hover transition */
+}
+
+.btn1:hover {
+    background: #286a82; /* Darker blue on hover */
+}
+
+.table-container {
+    margin: 20px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 10px; /* Add margin between rows */
+}
+
+.column {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd; /* Lighter border color */
+    background: white; /* White background for columns */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+/* Optional: Add hover effect for columns */
+.column:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

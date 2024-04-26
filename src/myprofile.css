@@ -1,0 +1,26 @@
+/* Table styling */
+.tablestyle {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tablestyle th,
+.tablestyle td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.firstcolumn {
+  width: 150px;
+  font-weight: bold;
+}
+
+/* Heading style */
+.tablestyle th {
+  padding: 12px;
+  border-bottom: 2px solid #333;
+  background-color: #f2f2f2;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}

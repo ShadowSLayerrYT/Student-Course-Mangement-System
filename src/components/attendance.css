@@ -1,0 +1,72 @@
+/* attendance.css */
+
+.attendance-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #343a40;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.attendance-table th,
+.attendance-table td {
+  padding: 12px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.attendance-table th {
+  background-color: #6a96c5;
+  color: #fff;
+  text-align: left;
+}
+
+.attendance-table tbody tr:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+.attendance-table tbody td {
+  color: #495057;
+}
+
+.attendance-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.attendance-checkbox input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.submit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #69b07a;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+.submit-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
